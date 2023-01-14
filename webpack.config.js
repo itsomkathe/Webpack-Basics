@@ -1,7 +1,9 @@
 const path = require('path');
 
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
+
 module.exports = {
-    mode: 'development',
+    mode: mode,
 
     entry: './src/index.js',
     output: {
@@ -29,6 +31,6 @@ module.exports = {
 
     /*Development Server*/
     devServer: {
-        static: './public'
+        static: './dist'
     }
 }
