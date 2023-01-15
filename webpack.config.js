@@ -7,8 +7,8 @@ module.exports = {
 
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'public')
+        filename: mode === 'production' ? 'bundle.js' : 'main.js',
+        path: mode === 'production' ? path.resolve(__dirname, 'public/build') : path.resolve(__dirname, 'dist')
     },
     module: {
         rules:[
