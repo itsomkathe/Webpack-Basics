@@ -132,7 +132,7 @@ var newObj = _objectSpread(_objectSpread({}, obj), {}, {
   c: "there"
 });
 console.log(newObj);
-console.log("%c Ran from index.js", 'color: #00ccff');
+console.log("%c Ran from index.js", 'color: #1d78c1');
 })();
 
 /******/ })()
