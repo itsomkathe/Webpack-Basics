@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/static/webpack.svg" width="50px"/>
+  <img src="./public/static/webpack.svg" width="40px"/>
   <img src="./public/static/css.svg" width="35px">
   <img src="./public/static/sass.svg" width="50px"/>
   <img src="./public/static/postcss.svg" width="40px"/>
