@@ -1,0 +1,15 @@
+$background-gradient: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+body{
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    background: $background-gradient;
+    border-radius: 8px;
+    h1{
+        text-align: center;
+        font-size: 100px;
+    }
+}
