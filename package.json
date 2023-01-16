@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/itsomkathe/Webpack-Basics/issues"
   },
-  "homepage": "https://github.com/itsomkathe/Webpack-Basics#readme"
+  "homepage": "https://github.com/itsomkathe/Webpack-Basics#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
