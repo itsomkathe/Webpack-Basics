@@ -13,3 +13,5 @@
     <br />
   </p>
 </div>
+
+Run TypeScript in webpack using <a href="https://www.npmjs.com/package/ts-loader" target="_blank">ts-loader↗</a>. Read the docs to explore more.
